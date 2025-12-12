@@ -50,11 +50,15 @@ padding: 10px 60.5px;
     color: white;
     padding: 10px 47px;
 
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 700;
     max-width: 197px;
 }
-
+.btn-primary:hover, .btn-secondary:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
 .a-read-more{
     font-size: 0.943rem;
     font-weight: 700;
@@ -346,7 +350,7 @@ footer{
     background: var(--sky-blue);
     /* padding: 40px 0px;*/
     margin: 0 auto; 
-    padding: 100px ;
+    padding: 100px 360px;
     /* max-width: 1063.91px; */
     
     }
