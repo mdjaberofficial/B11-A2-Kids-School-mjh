@@ -241,7 +241,7 @@ padding: 10px 60.5px;
     padding: 60px 0px 60px 0px;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .our-story{
     flex-direction: column;
@@ -342,7 +342,62 @@ padding: 10px 60.5px;
 }
 
 /* footer Styles */
+footer{
+    background: var(--sky-blue);
+    /* padding: 40px 0px;*/
+    margin: 0 auto; 
+    padding: 100px ;
+    /* max-width: 1063.91px; */
+    
+    }
+footer .left-contents .brand-name-footer{
+    color: white;
+    font-size: 2.634rem;
+    font-weight: 700;
+    max-width: 206.11px;
+}
 
+footer .left-contents .footer-branding img{
+    /* max-width: 82.9px; */
+}
+
+footer .left-contents .brand-description{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 392.02px;
+}
+
+footer .left-contents{
+    gap: 20px;
+    flex-direction: column;}
+
+footer .footer-nav-title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+footer .nav-link{
+    flex-direction: column;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.nav-links-footer{
+    flex-direction: column;
+    gap: 20px;
+}
+footer .s-icon-container{
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-content{
+    justify-content: space-between;
+}
 /* Responsive Media Queries */
 
 /* small devices */
@@ -358,10 +413,14 @@ padding: 10px 60.5px;
     }
     
     .grip-lines{
-    display: block;}
+    display: block;
+    cursor: pointer;
+    padding-right: 15px;
+    }
     
     .navbar .brand img{
     width: 46px;
+    padding-left: 15px;
     }
 
     .navbar{
@@ -462,8 +521,23 @@ padding: 10px 60.5px;
 .btn-secondary{
     font-size: 1rem;
 }
+footer{
+    width: 357px;
+    padding: 50px 36px;
+    margin: 0;
+  
+}
+.footer-content{
+    flex-direction: column;
+    gap: 32px;
+    justify-content: start;
+    padding: 0;
+
+}
+}
+
 /* medium devices */
 
-@media screen and (min-width:576px) and (max-width:992px){
+/* @media screen and (min-width:576px) and (max-width:992px){
     
-}
+} */
