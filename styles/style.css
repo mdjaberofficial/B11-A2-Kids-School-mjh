@@ -224,6 +224,104 @@ padding: 10px 60.5px;
 
 
 /* Our Stories section styles */
+.our-story{
+    background: url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* stories */
+    width: 1440px;
+    height: 1018.02px;
+    padding: 60px 0px 60px 0px;
+}
+
+.our-story-card-container{
+    justify-content: center;
+    align-items: center;
+    gap: 19.17px;
+}
+
+.our-story-card-special .our-story-content{
+    /* padding: 58.63px 38.35px 34.52px; */
+}
+.our-story-card-special{
+    background-color: white;
+    width: 540.27px;
+    height: 605.52px;
+    border-radius: 16px;
+    
+}
+.our-story-card-special .our-story-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--dark-1); 
+    
+    width: 402.49px;
+    height: 69.98px;
+    margin-left: 38.35px;
+    }
+
+.our-story-card-special .our-story-card-description{
+    font-size: 0.959rem;
+    font-weight: 500;
+    color: var(--dark-2);
+    width: 433.06px;
+    height: 75.74px;
+    margin-top: 46px;
+    margin-left: 38.35px;
+}
+
+.our-story-card-special .our-story-time {
+    border-radius: 47.93px;
+    background: rgba(60, 216, 232, 1);
+    color: white;
+    font-size: 0.959rem;
+    /* Background */
+    max-width: 174.51px;
+    padding: 14.38px 18.88px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    left: 38.35px;
+}
+
+.our-story-card{
+    width: 290.69px;
+    height: 301.61px;
+    background: white;
+    border-radius: 16px;
+}
+
+.our-story-card .our-story-time {
+    border-radius: 47.93px;
+    font-size: 0.959rem;
+    background: rgba(60, 216, 232, 1);
+    color: white;
+    max-width: 174.51px;
+    padding: 14.38px 18.88px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    left: 38.35px;
+}
+.our-story-card img, .our-story-card-special img{
+    /* width: 100%; */
+    border-radius: 16px 16px 0px 0px;
+}
+
+.our-story-card .our-story-card-title{
+    font-size: 0.961rem;
+    font-weight: 700;
+    /* Heading 4 → Link */
+    width: 214px;
+    height: 57.52px;
+    margin-left: 37.91px;
+}
+
+.our-story-card-sub-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 19.7px;
+    justify-content: flex-start;
+}
 
 /* footer Styles */
 
@@ -299,7 +397,8 @@ padding: 10px 60.5px;
     text-decoration: none;
 }
     .curriculum{
-        background: none;
+        
+        background-position: right;
     }
     .curriculum-container {
     display: grid;
