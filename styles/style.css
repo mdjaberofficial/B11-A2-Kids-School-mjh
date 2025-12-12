@@ -59,6 +59,11 @@ padding: 10px 60.5px;
     opacity: 0.8;
     transform: scale(1.05);
 }
+a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
 .a-read-more{
     font-size: 0.943rem;
     font-weight: 700;
@@ -112,6 +117,7 @@ padding: 10px 60.5px;
 .about{color: var(--sky-blue);}
 .facilities{color: var(--accent-3);}
 .admission{color: var(--accent-2);}
+
 /* banner related styles */
 .banner{
     align-items: center;
@@ -477,6 +483,9 @@ footer .s-icon-container{
     font-weight: 700;
     text-decoration: none;
 }
+    .ccard{
+        max-width: 357px;
+    }
     .curriculum{
         
         background-position: right;
