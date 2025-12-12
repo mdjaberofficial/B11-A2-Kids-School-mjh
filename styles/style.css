@@ -445,6 +445,7 @@ footer .s-icon-container{
         text-align: center;
         gap: 20px;
         margin-top: 12px;
+        max-width: 357px;
     }
     .banner-content{
     max-width: 357px;
